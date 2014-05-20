@@ -28,7 +28,7 @@ var draggie = new Draggabilly( elem, {
 });
 ```
 
-When dragging, Draggabilly will add the class `.is-dragging` to the element. If you add the class `.is-disabled` to the element, Draggabilly will disable dragging.
+When dragging, Draggabilly will add the class `.is-dragging` to the element. If you add the class `.is-frozen` to the element, Draggabilly will disable dragging.
 
 ## Options
 
@@ -138,7 +138,7 @@ draggie.once( 'dragMove', function() {
 draggie.disable()
 ```
 
-You can also disable dragging by adding the class `.is-disabled` to the element.
+You can also disable dragging by adding the class `.is-frozen` to the element.
 
 ### enable
 
@@ -146,7 +146,7 @@ You can also disable dragging by adding the class `.is-disabled` to the element.
 draggie.enable()
 ```
 
-If you disabled dragging by adding the class `.is-disabled` to the element, removing the class will enable dragging again.
+If you disabled dragging by adding the class `.is-frozen` to the element, removing the class will enable dragging again.
 
 ## RequireJS
 
